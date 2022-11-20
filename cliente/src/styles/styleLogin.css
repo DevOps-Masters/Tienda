@@ -1,0 +1,23 @@
+#colPers{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0.5%;
+    padding: 2%;
+    border-radius: 10px;
+    border:  1px solid black;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+}
+
+#imagenLogin{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+#emailCred{
+    font-size: 15px;
+}
+
+#passwordCred{
+    font-size: 15px;
+}
