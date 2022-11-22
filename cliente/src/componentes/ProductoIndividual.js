@@ -23,12 +23,13 @@ function ProductoIndividual({producto}){
             <div className='row'>
                 <div className='col-sm-6 offset-3'>
                     <ul className='list-group'>
-
                         <li className='list-group-item'>{producto.nombre} </li>
+                        <li clssName='list-group-item'><img alt="Imagen_Producto" src={producto.img}></img></li>
                         <li className='list-group-item'>{producto.descripcion} </li>
                         <li className='list-group-item'>{producto.valor} </li>
                         <li className='list-group-item'>{producto.cantidadStock} </li>   
                     </ul>
+                    <br></br>
                     <Link to={`/editarproducto/${producto.idproducto}`}><li className = 'btn btn-success'>Modificar</li></Link>
                      &nbsp;
                     <button className='btn btn-danger' onClick={()=>{borrarproducto(producto.idproducto)}}>Eliminar</button>

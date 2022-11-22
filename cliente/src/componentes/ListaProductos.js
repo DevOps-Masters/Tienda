@@ -26,7 +26,9 @@ function ListaProductos(){
  
     return(
         <div>
+            <br></br>
             <h2> Lista de Productos</h2>
+            <br></br>
             {listaproductos}
         </div>
     )
